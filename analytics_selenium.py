@@ -75,13 +75,13 @@ def get_data(driver, acc_id, day):
     }
 
 def main(day=1):
-    login = "winlady.ip@gmail.com" # google email
-    passwd = "Tvv363Nrq"      # google password
+    login = "..." # google email
+    passwd = "..."      # google password
     print('Starting...')
 
     driver = start_webdriver()
 
-    acc_ids = ['a59793658w94063945p97997794', 'a89214817w132397505p136356129', 'a34451481w62001262p63538862', 'a69426406w106425247p110797471', 'a75713134w114181655p119300061'] # Через запятую id аккаунтов ['...', '...', '...']
+    acc_ids = ['', '', '', '', ''] # Через запятую id аккаунтов ['...', '...', '...']
 
     if loggining(driver, login, passwd):
         data = []
