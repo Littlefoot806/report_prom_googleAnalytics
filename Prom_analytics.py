@@ -88,8 +88,8 @@ def get_data_from_Prom(driver, day):
 
 def main(day=1):
 
-    login = "33korovycomua@gmail.com"
-    passwd = "4mmj343u7tfgfr4#$$55rf"
+    login = "..."
+    passwd = "..."
 
     try:
         driver = start_webdriver()
